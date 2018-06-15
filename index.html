@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Validação de informações</title>
+
+    <meta name="description" content="tratamento de informação">
+    <meta name="author" content="Arllan Pablo">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <div class="container-fluid">
+	<div class="row">
+		<div class="col-md-2">
+		</div>
+		<div class="col-md-8">
+			<div class="well espacamentoFormulario">
+				<form  action="" method="get">
+					<!--nome-->
+					<div class="input-group espacamentoCima">
+					  <span class="input-group-addon" id="basic-addon1">Nome Completo*</span>
+					  <input type="text" id="IdNomeCompleto" class="form-control" placeholder="Digite o seu Nome" >
+					</div>
+					<!--Email-->
+					<div class="input-group espacamentoCima">
+					  <span class="input-group-addon" id="basic-addon1">E-mail*</span>
+					  <input type="email" id="IdEmail" class="form-control" placeholder="Digite o seu E-mail" >
+					</div>
+					<!--Email confirmação-->
+					<div class="input-group espacamentoCima">
+					  <span class="input-group-addon" id="basic-addon1"> E-mail Confimação*</span>
+					  <input type="email" id="IdConfirmacaoEmail" class="form-control" placeholder="Digite novamente o seu E-mail" >
+					</div>
+					<!--Contato Celula-->
+					<div class="input-group espacamentoCima">
+					  <span class="input-group-addon" id="basic-addon1">Contato*</span>
+					  <input type="text" id="IdContato" class="form-control" placeholder="(XX)XXXXX-XXXX" >
+					</div>
+					<!--Escola-->
+					<div class="input-group espacamentoCima">
+					  <span class="input-group-addon" id="basic-addon1">Escola*</span>
+					  <input type="text" id="IdEscola" class="form-control" placeholder="Digite o nome da sua escola">
+					</div>
+					<button type="button" class="btn btn-success espacamentoCima btn-block">SALVAR</button>
+				</form>
+			</div>
+		</div>
+		<div class="col-md-2">
+		</div>
+	</div>
+</div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
